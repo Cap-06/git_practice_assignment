@@ -11,4 +11,4 @@ let num = 6;
     console.log("Is a prime Number");
   }else{
     console.log("Not a prime Number");
- }
+ }   
