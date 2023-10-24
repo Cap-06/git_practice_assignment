@@ -1,13 +1,13 @@
 // Check whether a number is Prime or not..
 
 let num = 6;
- let count = 0;
+ let c = 0;
  for(let i=1; i<=num; i++){
     if(num%i==0){
-        count++;
+        c++;
     }
   }
-  if(count==2){
+  if(c==2){
     console.log("Is a prime Number");
   }else{
     console.log("Not a prime Number");
