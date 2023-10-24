@@ -7,8 +7,8 @@ let num = 6;
         count++;
     }
   }
-  if(c==2){
+  if(count==2)
     console.log("Is a prime Number");
-  }else{
+  else
     console.log("Not a prime Number");
- }
+
